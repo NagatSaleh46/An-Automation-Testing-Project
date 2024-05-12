@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hp/IdeaProjects/ITIprojectTesting">
+        <classes>
+            <class name="login.LoginTest">
+                <methods>
+                    <include name="validlogin"/>
+                    <include name="invalidlogin"/>
+                </methods>
+            </class>
+            <class name="AddToCart.AddToCartTest">
+                <methods>
+                    <include name="addTocart"/>
+                    <include name="checkout"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
